@@ -14,8 +14,11 @@ public:
 
             if(num>max)
                 max = num;
+            
+            if(max == 9)
+                break;
         }
-	
+			
         return max;
     }
 };
